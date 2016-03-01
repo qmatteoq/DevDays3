@@ -91,7 +91,7 @@ namespace ToastsApp
             selection.DefaultSelectionBoxItemId = "5";
 
             ToastButton button = new ToastButton("Vote", "vote");
-            button.ActivationType = ToastActivationType.Background;
+            button.ActivationType = ToastActivationType.Background; 
 
             ToastContent toast = new ToastContent
             {
