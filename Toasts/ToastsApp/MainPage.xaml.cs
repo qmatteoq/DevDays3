@@ -98,7 +98,7 @@ namespace ToastsApp
                 Visual = visual,
                 ActivationType = ToastActivationType.Background,
                 Actions = new ToastActionsCustom
-                {
+                { 
                     Inputs = {selection},
                     Buttons = { button }
                 }
